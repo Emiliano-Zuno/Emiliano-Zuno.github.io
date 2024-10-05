@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>links</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pàgina personal del alumno EZV">
+    <meta name="keywords" content="UNAM, FES, ARAGON, lamejor, ICO, Computacion">
+    <link rel="icon" href="./assets/img/favicon.ico" type="imagen/x-icon">
+    <link rel="stylesheet" href="./assets/css/master.css">
+        <script src="./assets/js/cliente.js"></script>
+    <title>Document</title>
+</head>
+<body id="cuerpo">
+    <header>
+        <h1 style="color: rgb(65, 203, 157); font-size: 24px; background-color: aliceblue;">Mi pàgina personal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://github.com/Emiliano-Zuno/Emiliano-Zuno.github.io/settings/pages">Git</a></li>
+                <li><a href="http://www.google.com">Google</a></li>
+                <li>
+
+                <ul style="color: pink;">
+                    <li><a href="code.html">Code</a></li>
+                    <li><a href="listas.html">Listas</a></li>
+                    <li><a href="links.html">Enlaces e Imàgenes</a></li>
+                    <li><a href="tablas.html">Tablas</a></li>
+                    <li><a href="formularios.html">Formularios</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Links e Imàgenes</h1>
+            <article>
+                <h3>img</h3>
+                <p><code style="background-color: lightgray;">&lt; A &gt;</code> Es un tag para incrustar imagenes en la pagina.
+                Sus atributos principales son: 
+                <ol>
+                <li>title</li>
+                <li>href</li>
+                <li>target</li>
+                </ol>    
+                <br>
+                Opciones de target:
+                <ol>
+                    <li>_SELF: Abre el link en la misma pagina</li>
+                    <li>_BLANK: Abre el limk en una nueva pagina del navegador</li>
+                    <li>_Parent: Abre en la pagina contenedora de la actual</li>
+                    <li>_Top: La abre en la parte superior de la pagina</li>
+                </ol>
+
+                Ejemplo: 
+                <a title = "link a github" href="http://www.github.com" target="_blank">Sitio de github</a>
+
+                </p>
+            </article>
+
+            <article>
+                <h3>Imagenes</h3>
+                <p >El tag <code style="background-color: lightgray;">&lt; IMG &gt;</code>
+                Sirve para incrustar imagenes en la pagina</p>
+                <p>
+                    Sus atributos importantes son:
+                    <ol>
+                        <li>Title: Es eñ tooltip</li>
+                        <li>src: Es el url a la imagen, ya sea relativa o absoluta</li>
+                        <li>width: Ancho en pixeles</li>
+                        <li>height: Alto en pixeles</li>
+                        <li>loading: Forma de carga: Lazy o eager</li>
+                    </ol>
+                    <p><img title="Roma" 
+                        src="./assets/img/coliseo-roma_2924b6ae_1280x720.jpg" 
+                        alt="Imagen de Roma"></p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto alias dolorem, quis tenetur veritatis saepe incidunt, aliquam provident at libero quos facilis voluptatem quaerat atque, enim obcaecati numquam dolorum! Quas?
+                </p>
+                <p>
+                    <h3>Carga lazy</h3>
+                    <img title="Roma" 
+                    src="./assets/img/coliseo-roma_2924b6ae_1280x720.jpg" 
+                    alt="Imagen de Roma"
+                    loading="lazy"
+                    >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto alias dolorem, quis tenetur veritatis saepe incidunt, aliquam provident at libero quos facilis voluptatem quaerat atque, enim obcaecati numquam dolorum! Quas?
+            </p>
+           </p>
+
+            </article>
+        </section>
+
+        
+    </main>
+    
+    <footer>
+        <p>Todos los derechos reservados FES Aragòn UNAM 2024</p>
+    </footer>
+</body>
+</html>

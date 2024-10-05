@@ -58,3 +58,11 @@ footer{
     background-color: mediumorchid;
     color: white;
 }
+
+ol{
+    padding: 75px;
+}
+
+ul{
+    padding-left: 25px;
+}
