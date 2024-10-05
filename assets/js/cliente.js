@@ -10,8 +10,8 @@ function saludar(){
 function cambiarParrafo2(){
     console.log('Button')
    
-    document.getElementById('parrafo1').textContent = "ADC > "
-    document.getElementById('parrafo2').textContent = "Top"
+    document.getElementById('parrafo1').textContent = "Ils ne passeront pas"
+    document.getElementById('parrafo2').textContent = "Bonjour"
 
 }
 
